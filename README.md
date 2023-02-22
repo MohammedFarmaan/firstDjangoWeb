@@ -1,2 +1,2 @@
 # firstDjangoWeb
-This my first try of Django used for building a simple web app for classifying Plant Iris
+This is my first attempt at using Django to build a simple web app for classifying Plant Irises
