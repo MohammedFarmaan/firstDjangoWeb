@@ -1,0 +1,13 @@
+
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+
+
+def Print(request):
+    return render(request, 'index.html')
+
+
+def GetUser(request):
+    username = request.GET['username']
+    return render(request, 'user.html', {'name': username})
